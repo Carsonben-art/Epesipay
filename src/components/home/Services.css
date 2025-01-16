@@ -1,0 +1,77 @@
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    flex-direction: column;
+    padding-bottom: 4rem;
+}
+.services .services-header{
+    max-width: 1200px;
+    text-align: center;
+}
+.services .services-header .title{
+    font-size: 16px;
+    color: #F5AA1B;
+    text-transform: uppercase;
+}
+.services .services-header h2{
+    font-size: 45px;
+    font-weight: bold;
+    color: #5A3316;
+}
+.services .services-header p{
+    font-size: 18px;
+    color: #292D32;
+    font-weight: 600;
+}
+.services .services-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+    gap: 4rem;
+    
+}
+.services .services-content .services-details{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+}
+.services .services-content .services-details h3{
+    font-size: 30px;
+    color: #292D32;
+    font-weight: 600;
+}
+.services .services-content .services-details ul{
+    font-size: 18px;
+    color: #292D32;
+    font-weight: 400;
+    list-style-type: none;
+}
+.services .services-content .services-details ul li{
+    gap: 10px;
+    display: flex;
+    margin-bottom: 1rem;
+}
+.services .services-content .services-details ul li .icon{
+    font-size: 20px;
+    color: #F5AA1B;
+    background-color: #5A3316;
+    border-radius: 50%;
+    padding: 5px;
+}
+.services .services-content .services-details p{
+    font-size: 18px;
+    color: #292D32;
+    text-align: left;
+    font-weight: 400;
+}
+.services p{
+    font-size: 18px;
+    color: #292D32;
+    text-align: center;
+    font-weight: 500;
+}

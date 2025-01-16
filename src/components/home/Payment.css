@@ -1,0 +1,40 @@
+.payment {
+    background-color: rgba(148, 151, 163, 0.1);
+    background-image: url('../../assets/backgroundPatternPayment.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 3rem;
+}
+.payment h1{
+    color: #5A3316;
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+}
+.payment .payment-container{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 2rem 5rem;
+
+}
+.payment-content-container{
+    width: 250px;
+    border: 1px solid #d7d7d7;
+    border-radius: 14px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #292D32;
+}
+.payment-content-container h2{
+    color: #5A3316;
+}
+.left-container, .right-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
