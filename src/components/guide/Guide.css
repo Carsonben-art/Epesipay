@@ -1,0 +1,86 @@
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .main-video {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .main-video iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .main-video h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #5A3316;
+  }
+  
+  .main-video p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    background-color: #5A3316;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .btn:hover {
+    background-color: #6e471f;
+  }
+  
+  .sub-videos {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .sub-videos .sub-container, .sub-videos .sub-container-below{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .video-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    max-width: 350px;
+    flex: 1;
+  }
+  
+  .video-card iframe {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .video-card h3 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #5A3316;
+    font-weight: 800;
+  }
+  
+  .video-card p {
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+  }

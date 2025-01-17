@@ -1,0 +1,25 @@
+.guide-hero{
+    background: url('../../assets//ResourcesBg.png') no-repeat center center;
+    background-size: cover;
+    padding-left: 6rem;
+    margin: 0;
+    height: 80vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.guide-hero .guide-content{
+    max-width: 500px;
+    color: #ffffff;
+}
+.guide-hero .guide-content h1{
+    font-size: 110px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #F5AA1B;
+}
+.guide-hero .guide-content h3{
+    font-size: 40px;
+    font-weight: 500;
+}
