@@ -9,7 +9,8 @@ const BusinessPage = () => {
     <div>
       <BusinessHero />
       <WhyChooseUs />
-      <EpesiPayFeatures />
+      <EpesiPayFeatures />  
+
       
     </div>
   )

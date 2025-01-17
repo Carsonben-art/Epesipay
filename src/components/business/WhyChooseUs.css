@@ -40,7 +40,7 @@
     right: 0;
     bottom: 0;
     border-radius: 8px; /* Matches the card's border radius */
-    padding: 2px; /* Thickness of the border */
+    padding: 1px; /* Thickness of the border */
     background: linear-gradient(90deg, #ffffff, #ffffff,#ffd700, #FFD700, #ffffff, #ffffff); /* Gradient colors */
     -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
