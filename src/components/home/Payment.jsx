@@ -1,5 +1,6 @@
 import React from 'react'
 import './Payment.css'
+import transactionImg from '../../assets/transactionImg.png'
 const Payment = () => {
   return (
     <div className='payment'>
@@ -28,6 +29,9 @@ const Payment = () => {
                 
             </div>
             
+        </div>
+        <div className="image-container">
+            <img src={transactionImg} alt="transaction" />
         </div>
 
     </div>

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Navbar.css';
 import logo from '../assets/epesipay-logobg.png'
 import { LuUser } from "react-icons/lu";
+import { Link } from 'react-router-dom';
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState(null);
@@ -28,8 +29,8 @@ const Navbar = () => {
           </button>
           {activeDropdown === 'company' && (
             <div className="dropdown-menu">
-              <a href="#about">About Us</a>
-              <a href="#contact">Contact Us</a>
+              <Link to="/">Home</Link>
+              <Link to="/about">About Us</Link>
             </div>
           )}
         </div>
@@ -41,7 +42,7 @@ const Navbar = () => {
           </button>
           {activeDropdown === 'business' && (
             <div className="dropdown-menu">
-              <a href="#discover">Discover</a>
+              <Link to="/business">Discover</Link>
               <a href="#pricing">Pricing</a>
               <a href="#contact-business">Contact Us</a>
             </div>
@@ -54,7 +55,7 @@ const Navbar = () => {
           </button>
           {activeDropdown === 'resources' && (
             <div className="dropdown-menu">
-              <a href="#user-guide">User Guide</a>
+              <Link to="/user-guide">User Guide</Link>
               <a href="#faqs">FAQs</a>
             </div>
           )}

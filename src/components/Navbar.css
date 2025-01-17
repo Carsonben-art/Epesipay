@@ -175,4 +175,12 @@
       box-shadow: none;
     }
   }
+  @media screen and (max-width: 460px) {
+    .navbar {
+      padding: 5px 10px;
+    }
+    .button {
+      padding: 3px 5px;
+    }
+  }
   

@@ -41,3 +41,35 @@
     flex-direction: column;
     gap: 2rem;
 }
+.payment .image-container{
+    display: none;
+}
+@media (max-width: 768px) {
+    .payment {
+        background-image: none;
+        padding-top: 2rem;
+    }
+    .payment h1 {
+        font-size: 35px;
+    }
+    .payment .payment-container {
+        flex-direction: column;
+        padding: 1rem 2rem;
+    }
+    .payment-content-container {
+        width: 100%;
+        padding: 0.5rem;
+    }
+    .left-container, .right-container {
+        gap: 1rem;
+    }
+    .payment .image-container{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .payment .image-container img{
+        width: 300px;
+    }
+}

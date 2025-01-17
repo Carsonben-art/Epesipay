@@ -30,9 +30,9 @@ const Missions = () => {
         <div className="business-container">
             <div className="business-content">
                 <h1>Do you own a business?</h1>
-                <p>EpesiPay has got you covered. Join thousands of <br />
-                other business owners who have chosen EpesiPay to <br />
-                streamline payments. Whether B2B or B2C, enjoy fast <br />
+                <p>EpesiPay has got you covered. Join thousands of 
+                other business owners who have chosen EpesiPay to 
+                streamline payments. Whether B2B or B2C, enjoy fast 
                 and secure transactions.</p>
             </div>
         </div>

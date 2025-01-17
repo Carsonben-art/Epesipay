@@ -48,6 +48,10 @@
     color: #fff;
 
 }
+.business-container .business-content{
+    max-width: 450px;
+    
+}
 .business-container h1{
     color: #F5AA1B;
 }
@@ -83,4 +87,94 @@
 }
 .join-container .join-content .desc .info{
     font-weight: 500;
+}
+/* responsive styling */
+@media (max-width: 768px) {
+    .mission-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .mission-content h1 {
+        font-size: 35px;
+    }
+    .mission-content .desc {
+        font-size: 18px;
+    }
+    .mission-content .stats-container {
+        gap: 10px;
+        align-items: center;
+    }
+    .mission-content .stats-container .stats h2 {
+        font-size: 30px;
+    }
+    .mission-content .stats-container .stats p {
+        font-size: 16px;
+    }
+    .business-container {
+        height: 300px;
+        padding-right: 2rem;
+    }
+    .business-container h1 {
+        font-size: 30px;
+    }
+    .business-container p {
+        font-size: 16px;
+    }
+    .join-container .join-content {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .mission-container img{
+        width: 300px;
+    }
+    .mission-content .title{
+        text-align: center;
+    }
+    .mission-content h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .mission-content .desc {
+        font-size: 16px;
+    }
+    .mission-content .stats-container .stats h2 {
+        font-size: 15px;
+    }
+    .mission-content .stats-container .stats p {
+        font-size: 12px;
+    }
+    .business-container {
+        background: url('../../assets/bsmobilebg.png');
+        height: 435px;
+        background-repeat: no-repeat;
+        padding-right: 1rem;
+        margin-top: 2rem;
+        width: 360px;
+        justify-content: center;
+        align-items: flex-start;
+
+    }
+    .business-container .business-content{
+        max-width: 300px;
+        text-align: center;
+    }
+    .business-container h1 {
+        font-size: 25px;
+    }
+    .business-container p {
+        font-size: 14px;
+    }
+    .join-container h1 {
+        font-size: 25px;
+    }
+    .join-container .join-content{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .join-container .join-content .desc p {
+        font-size: 16px;
+    }
 }

@@ -1,0 +1,18 @@
+.about-desc-container{
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 2rem;
+}
+.about-desc-container img{
+    width: 500px;
+    height: 400px;
+}
+.about-desc-container .about-content{
+    max-width: 500px;
+    
+}
+.about-desc-container .about-content p{
+    color: #292D32;
+}

@@ -41,6 +41,9 @@ const Services = () => {
             a forward-thinking financial <br /> ecosystem designed to enhance your daily transactions and
             overall financial management.
           </p>
+          <div className="image-container-below">
+          <img src={serviceimg} alt="Delivery interaction" />
+        </div>
     </section>
   );
 };

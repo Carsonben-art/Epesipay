@@ -88,32 +88,32 @@ const Testimonials = () => {
 
   return (
     <div className="testimonials-container">
-      <div className="testimonial-header">
+    <div className="testimonial-header">
         <h1>Testimonials</h1>
-        <div className="controls">
-          <button onClick={handlePrev}>
-            <FaChevronLeft />
-          </button>
-          <button onClick={handleNext}>
-            <FaChevronRight />
-          </button>
-        </div>
-      </div>
-      <div className="testimonials-wrapper">
-        {visibleTestimonials.map((testimonial) => (
-          <div key={testimonial.id} className="testimonial-card">
-            <div className="stars">{renderStars(testimonial.rating)}</div>
-            <p>{testimonial.review}</p>
-            <div className="testimonial-footer">
-              <img src={testimonial.image} alt={testimonial.name} />
-              <div>
-                <h4>{testimonial.name}</h4>
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
     </div>
+    <div className="testimonials-wrapper">
+        {visibleTestimonials.map((testimonial) => (
+            <div key={testimonial.id} className="testimonial-card">
+                <div className="stars">{renderStars(testimonial.rating)}</div>
+                <p>{testimonial.review}</p>
+                <div className="testimonial-footer">
+                    <img src={testimonial.image} alt={testimonial.name} />
+                    <div>
+                        <h4>{testimonial.name}</h4>
+                    </div>
+                </div>
+            </div>
+        ))}
+    </div>
+    <div className="controls">
+        <button onClick={handlePrev}>
+            <FaChevronLeft />
+        </button>
+        <button onClick={handleNext}>
+            <FaChevronRight />
+        </button>
+    </div>
+</div>
   );
 };
 
