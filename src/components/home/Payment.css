@@ -33,6 +33,9 @@
 .payment-content-container h2{
     color: #5A3316;
 }
+.payment-content-container p{
+    font-weight: 600;
+}
 .left-container, .right-container{
     display: flex;
     flex-direction: column;

@@ -1,0 +1,44 @@
+.business-hero{
+    background-image: url('../../assets//background.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 5rem;
+}
+.business-hero .bs-hero-content{
+    max-width: 500px;
+    color: #fff;
+}
+.business-hero .bs-hero-content h1{
+    color: #F5AA1B;
+    font-size: 100px;
+    line-height: 0;
+}
+.business-hero .bs-hero-content .desc{
+    font-size: 40px;
+    font-weight: 600;
+}
+.business-hero .bs-hero-content p{
+    font-size: 18px;
+    line-height: 1.2;
+}
+.business-hero .bs-hero-content button{
+    width: 200px;
+    height: 40px;
+    border-radius: 24px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #292D32;
+    font-weight: 600;
+}
+.business-hero .bs-hero-content button:hover{
+    background-color: aliceblue;
+}
+.business-hero img{
+    width: 500px;
+}

@@ -1,0 +1,86 @@
+.missions{
+    padding: 4rem;
+}
+.mission-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.mission-content .title{
+    text-transform: uppercase;
+    color: #F5AA1B;
+    font-size: 16px;
+}
+.mission-content h1{
+    font-size: 45px;
+    font-weight: 700;
+    margin: 1rem 0;
+    color: #5A3316;
+}
+.mission-content .desc{
+    color: #292D32;
+    font-size: 20px;
+}
+.mission-content .stats-container{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.mission-content .stats-container .stats h2{
+    font-size: 40px;
+    color: #F5AA1B;
+    font-weight: 800;
+}
+.mission-content .stats-container .stats p{
+    font-size: 18px;
+    color: #292D32;
+}
+
+/* Business styling */
+.business-container{
+    background: url('../../assets/bsbs.png');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 6rem;
+    color: #fff;
+
+}
+.business-container h1{
+    color: #F5AA1B;
+}
+.business-container p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Join Section */
+.join-container{
+    padding-top: 5rem;
+}
+.join-container .title{
+    text-align: center;
+    text-transform: uppercase;
+    color: #F5AA1B;
+}
+.join-container h1{
+    text-align: center;
+    color: #5A3316;
+}
+.join-container .join-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+    padding-top: 3rem;
+
+}
+.join-container .join-content .desc p{
+    font-size: 18px;
+    color: #292D32;
+}
+.join-container .join-content .desc .info{
+    font-weight: 500;
+}
