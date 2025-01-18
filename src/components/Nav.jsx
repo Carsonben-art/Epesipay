@@ -18,8 +18,9 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <img src={logo} alt="Epesipay" />
-        
+        <Link to="/">
+          <img src={logo} alt="Epesipay" />
+        </Link>
       </div>
 
       <div className={`navbar-links ${isMobileMenuOpen ? 'active' : ''}`}>
@@ -29,7 +30,7 @@ const Navbar = () => {
           </button>
           {activeDropdown === 'company' && (
             <div className="dropdown-menu">
-              <Link to="/">Home</Link>
+              <Link to="/home">Home</Link>
               <Link to="/about">About Us</Link>
             </div>
           )}
