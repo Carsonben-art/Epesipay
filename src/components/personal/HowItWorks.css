@@ -1,0 +1,130 @@
+.how-it-works {
+    color: #4a4a4a;
+    padding: 20px;
+  }
+  
+  .steps-section {
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .steps-section h2 {
+    color: #5A3316;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  
+  .steps {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    max-width: 500px;
+  }
+  
+  .step {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-items: flex-start; */
+    width: 400px;
+    gap: 15px;
+  }
+  .step .icon{
+    font-size: 20px;
+    color: #F5AA1B;
+    background-color: #5A3316;
+    border-radius: 50%;
+    padding: 5px;
+  }
+  .step h3 {
+    font-size: 1.2rem;
+    color: #5A3316;
+    margin-bottom: 5px;
+  }
+  
+  .step p {
+    font-size: 1rem;
+    margin: 0;
+  }
+  .steps-section  .phones-image img{
+    width: 450px;
+  }
+  
+  .phones-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .join-section {
+    padding-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 4rem;
+  }
+  
+  .personal-join-content{
+    flex: 1;
+    max-width: 350px;
+  }
+  
+  .personal-join-content h2 {
+    color: #5A3316;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .personal-join-content p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  
+  .download-button {
+    background-color: #5A3316;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .download-button:hover {
+    background-color: #804700;
+  }
+  
+  .join-image {
+    flex: 1;
+    max-width: 500px;
+  }
+  
+  .join-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .steps {
+      align-items: center;
+    }
+  
+    .join-section {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .personal-join-content {
+      max-width: 100%;
+    }
+  
+    .join-image {
+      max-width: 100%;
+    }
+  }

@@ -1,0 +1,50 @@
+.personal-container {
+    background-image: url('../../assets//background.png');
+    background-size: cover;
+    background-position: center;
+    /* width: 100%; */
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    gap: 3rem;
+    padding: 2rem;
+    overflow: hidden;
+
+}
+.personal-container img{
+    width: 500px;
+}
+.personal-container .personal-content{
+    max-width: 500px;
+}
+.personal-container .personal-content h2 span{
+    color: #f7b71d;
+    font-size: 110px;
+}
+.personal-container .personal-content p{
+    font-size: 18px;
+    line-height: 25px;
+}
+@media (max-width: 768px) {
+    .personal-container {
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem;
+    }
+    .personal-container img {
+        width: 100%;
+        max-width: 300px;
+    }
+    .personal-container .personal-content{
+        max-width: 350px;
+    }
+    .personal-container .personal-content h2 span {
+        font-size: 60px;
+    }
+    .personal-container .personal-content p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
