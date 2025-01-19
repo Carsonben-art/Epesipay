@@ -12,7 +12,7 @@ const BusinessHero = () => {
             services and features. We're dedicated to empowering your business 
             with the tools it needs to thrive in today's fast-paced digital landscape.
         </p>
-        <a href="#register"><button>REGISTER NOW</button></a>
+        <a href="https://business.epesipay.com/"><button>REGISTER NOW</button></a>
       </div>
       <img src={heroImg} alt="Hero" />
     </div>

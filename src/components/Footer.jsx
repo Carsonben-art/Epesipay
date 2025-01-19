@@ -24,17 +24,17 @@ const Footer = () => {
       <div className="footer-section">
         <h4>Follow Us</h4>
         <div className="social-links">
-          <a href="#twitter"><i className="fab fa-twitter"></i></a>
-          <a href="#linkedin"><i className="fab fa-linkedin-in"></i></a>
-          <a href="#facebook"><i className="fab fa-facebook-f"></i></a>
-          <a href="#instagram"><i className="fab fa-instagram"></i></a>
-          <a href="#tiktok"><i className="fab fa-tiktok"></i></a>
+          <a href="https://x.com/EpesiPay"><i className="fab fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/company/epesipay/"><i className="fab fa-linkedin-in"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=61560520585438"><i className="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/epesipay/"><i className="fab fa-instagram"></i></a>
+          <a href="https://www.tiktok.com/@epesipay"><i className="fab fa-tiktok"></i></a>
         </div>
       </div>
       <div className="footer-section">
         <h4>Download App</h4>
         <div className="download-links">
-          <a href="#app"><img src={apple} alt="App Store" /></a>
+          <a href="https://play.google.com/store/apps/details?id=com.futurizac.epesipay"><img src={apple} alt="App Store" /></a>
           <a href="#google"><img src={google} alt="Google Play" /></a>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import './Visions.css'
+import aboutImg from '../../assets/aboutImg2.png'
 const Visions = () => {
   return (
     <div className='visions'>
@@ -29,7 +30,9 @@ const Visions = () => {
             </div>
             
         </div>
-
+        <div className="img-container">
+            <img src={aboutImg} alt="aboutImg" />
+        </div>
     </div>
   )
 }

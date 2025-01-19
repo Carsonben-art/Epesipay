@@ -35,7 +35,7 @@ const Navbar = () => {
             </div>
           )}
         </div>
-        <a href="#services" className="nav-item">Services</a>
+        <a href="/home" className="nav-item">Services</a>
         <Link to="/personal" className="nav-item">Personal</Link>
         <div className="nav-item dropdown" onMouseEnter={() => toggleDropdown('business')} onMouseLeave={() => toggleDropdown(null)}>
           <button className="dropdown-btn">
@@ -64,8 +64,8 @@ const Navbar = () => {
 
       </div>
       <div className="buttons-container">
-      <a href="#login" className="button"><LuUser />  Log In</a>
-      <a href="#signup" className="button primary">Sign Up</a>
+      <a href="https://play.google.com/store/apps/details?id=com.futurizac.epesipay" className="button"><LuUser />  Log In</a>
+      <a href="https://play.google.com/store/apps/details?id=com.futurizac.epesipay" className="button primary">Sign Up</a>
       </div>
 
       <button className="mobile-menu-icon" onClick={toggleMobileMenu}>

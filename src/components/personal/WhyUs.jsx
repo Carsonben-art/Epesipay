@@ -1,6 +1,7 @@
 import React from 'react'
 import './WhyUs.css'
 import Why from './Timeline'
+import personalImg from '../../assets/personalImg2.png'
 const WhyUs = () => {
   return (
     <div className='why-us-container'>
@@ -10,6 +11,9 @@ const WhyUs = () => {
 
             <Why />
             </div>
+        </div>
+        <div className="image-container">
+          <img src={personalImg} alt="personalImg" />
         </div>
     </div>
   )

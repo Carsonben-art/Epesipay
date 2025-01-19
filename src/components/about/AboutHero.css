@@ -14,7 +14,7 @@
 }
 .about-hero .about-container{
     color: #ffffff;
-    max-width: 600px;
+    max-width: 500px;
 }
 .about-hero .about-container h1{
     font-size: 100px;
@@ -23,4 +23,25 @@
 }
 .about-hero .about-container h3{
     font-size: 30px;
+}
+@media (max-width: 768px) {
+    .about-hero {
+        flex-direction: column;
+        padding-top: 2rem;
+        gap: 1rem;
+        height: auto;
+    }
+    .about-hero img {
+        width: 350px;
+    }
+    .about-hero .about-container {
+        max-width: 350px;
+        text-align: center;
+    }
+    .about-hero .about-container h1 {
+        font-size: 50px;
+    }
+    .about-hero .about-container h3 {
+        font-size: 20px;
+    }
 }

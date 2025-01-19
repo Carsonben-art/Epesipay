@@ -6,6 +6,7 @@ import collaborateIcon from '../../assets/innovateIcon.png'
 import customerJoinImg from '../../assets/customerJoinImg.png'
 
 import './Customer.css'
+import { Link } from 'react-router-dom'
 const Customer = () => {
   return (
     <div className='customer-container'>
@@ -44,7 +45,9 @@ const Customer = () => {
                    it's a catalyst for growth, efficiency, and progress. 
                    Join us on this journey as we transform the way Kenya transacts. 
                    Welcome to the world of effortless payments with EpesiPay!</p>
-            <button>DOWNLOAD LINK</button>
+            <Link to={"https://play.google.com/store/apps/details?id=com.futurizac.epesipay"}>
+            <button>DOWNLOAD LINK</button> 
+            </Link>
         </div>
         <img src={customerJoinImg} alt="customer" />
       </div>

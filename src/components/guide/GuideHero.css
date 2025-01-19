@@ -3,7 +3,7 @@
     background-size: cover;
     padding-left: 6rem;
     margin: 0;
-    height: 80vh;
+    /* height: 80vh; */
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -22,4 +22,47 @@
 .guide-hero .guide-content h3{
     font-size: 40px;
     font-weight: 500;
+}
+.guide-hero .image-container{
+    display: none;
+}
+@media (max-width: 768px) {
+    .guide-hero {
+        /* padding-left: 3rem; */
+        /* height: 60vh; */
+        background-image: url('../../assets/background.png');
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .guide-hero .guide-content h1 {
+        font-size: 80px;
+    }
+    .guide-hero .guide-content h3 {
+        font-size: 30px;
+    }
+    .guide-hero .image-container{
+        display: block;
+    }
+    .guide-hero .image-container img{
+        width: 350px;
+        /* height: 350px; */
+    }
+}
+
+@media (max-width: 480px) {
+    .guide-hero {
+        padding-left: 1rem;
+        justify-content: center;
+        text-align: center;
+    }
+    .guide-hero .guide-content {
+        max-width: 100%;
+    }
+    .guide-hero .guide-content h1 {
+        font-size: 50px;
+    }
+    .guide-hero .guide-content h3 {
+        font-size: 20px;
+    }
 }

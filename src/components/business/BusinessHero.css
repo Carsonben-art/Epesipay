@@ -42,3 +42,47 @@
 .business-hero img{
     width: 500px;
 }
+@media (max-width: 768px) {
+    .business-hero {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 2rem 3rem;
+    }
+    .business-hero .bs-hero-content h1 {
+        font-size: 80px;
+    }
+    .business-hero .bs-hero-content h1 span{
+        font-size: 80px;
+    }
+    .business-hero .bs-hero-content .desc {
+        font-size: 30px;
+    }
+    .business-hero .bs-hero-content p {
+        font-size: 16px;
+    }
+    .business-hero img {
+        width: 100%;
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+    .business-hero {
+        padding: 1rem 2rem;
+    }
+    .business-hero .bs-hero-content h1 {
+        font-size: 60px;
+    }
+    .business-hero .bs-hero-content .desc {
+        font-size: 20px;
+    }
+    .business-hero .bs-hero-content p {
+        font-size: 14px;
+    }
+    .business-hero img {
+        width: 100%;
+        max-width: 300px;
+    }
+}

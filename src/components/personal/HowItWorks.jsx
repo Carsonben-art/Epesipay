@@ -4,6 +4,7 @@ import "./HowItWorks.css";
 
 import phones from '../../assets/howItWorksImg.png'
 import join from '../../assets/joinImg2.png'
+import { Link } from "react-router-dom";
 
 const HowItWorks = () => {
   return (
@@ -67,14 +68,17 @@ const HowItWorks = () => {
       <section className="join-section">
         <div className="personal-join-content">
           <h2>Join EpesiPay Today!</h2>
-          <p>Ready to experience the future of payments?</p>
+          <h4>Ready to experience the future of payments?</h4>
           <p>
             Join EpesiPay today and enjoy a seamless, secure, and convenient way
             to pay. Whether you're shopping, dining, or exploring new places,
             EpesiPay is your trusty companion. With us, you'll never have to
             worry about carrying cash again!
           </p>
+          <Link to={"https://play.google.com/store/apps/details?id=com.futurizac.epesipay"}>
           <button className="download-button">DOWNLOAD LINK</button>
+          
+          </Link>
         </div>
         <div className="join-image">
          

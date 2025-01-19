@@ -13,7 +13,7 @@ const LandingHero = () => {
                 and customers transact, one QR code at a time. With our 
                 lightning-fast, affordable, and oh-so-convenient payment 
                 solution, we simplify for businesses and customers alike.</p>
-                <Link to={"/"}><button>DOWNLOAD LINK</button></Link>
+                <Link to={"https://play.google.com/store/apps/details?id=com.futurizac.epesipay"}><button>DOWNLOAD LINK</button></Link>
 
         </div>
         <img src={landingImg} alt="landingImg" />

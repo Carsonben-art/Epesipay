@@ -111,10 +111,20 @@
   
   /* Responsive Design */
   @media (max-width: 768px) {
+    .steps-section{
+      flex-direction: column;
+      gap: 2rem;
+    }
     .steps {
       align-items: center;
+      padding: 1rem;
     }
-  
+    .step{
+      width: 350px;
+      padding-left: 1rem;
+      justify-content: flex-start;
+      /* align-items: flex-start; */
+    }
     .join-section {
       flex-direction: column;
       text-align: center;

@@ -9,7 +9,7 @@ const HomePage = () => {
   return (
     <div>
       <Hero />
-      <Services />
+      <Services id="services"/>
       <Payment />
       <Missions /> 
       <Testimonials />

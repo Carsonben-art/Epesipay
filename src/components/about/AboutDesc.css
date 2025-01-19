@@ -16,3 +16,28 @@
 .about-desc-container .about-content p{
     color: #292D32;
 }
+@media (max-width: 768px) {
+    .about-desc-container {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 2rem;
+        text-align: center;
+    }
+    .about-desc-container img {
+        width: 100%;
+        height: auto;
+    }
+    .about-desc-container .about-content {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-desc-container {
+        padding: 1rem;
+    }
+    .about-desc-container img {
+        width: 100%;
+        height: auto;
+    }
+}

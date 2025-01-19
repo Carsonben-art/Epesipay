@@ -24,16 +24,25 @@
     font-size: 40px;
     font-weight: 600;
 }
+.home-hero .mobile-img{
+    display: none;
+}
 @media screen and (max-width: 460px) {
     .home-hero{
         padding-left: 10px;
         display: flex;
-        justify-content: flex-start;
-        align-items: start;
-        height: 100vh;
-        background: url('../../assets/mobilebg.png');
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+        height: auto;
+        background: url('../../assets/background.png');
         text-align: center;
         background-repeat: no-repeat;
+    }
+    .home-hero .hero-content{
+        padding-top: 2rem;
+        max-width: 300px;
     }
     .home-hero .hero-content .title{
         font-size: 18px;
@@ -47,5 +56,11 @@
     }
     .home-hero .hero-content p{
         font-size: 12px;
+    }
+    .home-hero .mobile-img{
+        display: block;
+    }
+    .home-hero .mobile-img img{
+        width: 350px;
     }
 }

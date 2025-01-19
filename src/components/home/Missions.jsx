@@ -44,11 +44,11 @@ const Missions = () => {
             <div className="join-content">
                 <img src={joinImg} alt="joinImg" />
                 <div className="desc">
-                    <p>Whether you're a merchant or a potential partner, <br />
-                     we're always open to new collaborations. Let's work <br />
-                      together to shape the future of payments in Kenya! <br />
-                      Remember, EpesiPay is more than just a payment <br />
-                      solution; it's a catalyst for growth, efficiency, and <br />
+                    <p>Whether you're a merchant or a potential partner, 
+                     we're always open to new collaborations. Let's work
+                      together to shape the future of payments in Kenya!
+                      Remember, EpesiPay is more than just a payment
+                      solution; it's a catalyst for growth, efficiency, and
                       progress.</p>
                       <p className="info">
                       Join us on this journey as we transform the way <br />
