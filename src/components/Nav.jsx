@@ -35,7 +35,7 @@ const Navbar = () => {
             </div>
           )}
         </div>
-        <a href="/home" className="nav-item">Services</a>
+        <Link to="/home" className="nav-item">Services</Link>
         <Link to="/personal" className="nav-item">Personal</Link>
         <div className="nav-item dropdown" onMouseEnter={() => toggleDropdown('business')} onMouseLeave={() => toggleDropdown(null)}>
           <button className="dropdown-btn">
