@@ -72,9 +72,9 @@
       background-position: cover;
     }
   
-    .footer-section {
+    /* .footer-section {
       max-width: 100%;
-    }
+    } */
     .powered-by{
       display: flex;
       flex-direction: column;

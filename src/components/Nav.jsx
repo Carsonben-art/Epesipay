@@ -44,7 +44,7 @@ const Navbar = () => {
           {activeDropdown === 'business' && (
             <div className="dropdown-menu">
               <Link to="/business">Discover</Link>
-              <a href="#pricing">Pricing</a>
+              <a href="/pricing">Pricing</a>
               <a href="#contact-business">Contact Us</a>
             </div>
           )}

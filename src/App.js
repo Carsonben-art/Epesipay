@@ -8,6 +8,7 @@ import UserGuidePage from "./pages/UserGuidePage";
 import HomePage from "./pages/HomePage";
 import PersonalPage from './pages/PersonalPage';
 import LandingPage from './pages/LandingPage';
+import PricingPage from './pages/PricingPage';
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
           <Route path="/business" element={<BusinessPage />} />
           <Route path="/user-guide" element={<UserGuidePage />} />
           <Route path="/personal" element={<PersonalPage />} />
+          <Route path="/pricing" element={<PricingPage />} />
+
         </Routes>
         <Footer />
       </div>
