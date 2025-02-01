@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css'
-import heroImg from '../../assets/HeroImg.png'
+import heroImg from '../../assets/bg1.png'
 const Hero = () => {
   return (
     <div className='home-hero'>

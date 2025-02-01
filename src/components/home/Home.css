@@ -1,10 +1,12 @@
 .home-hero{
-    background: url('../../assets/homebg.png') no-repeat center center/cover;
+    background: url('../../assets/background.png') no-repeat center center;
     height: 100vh;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    justify-content: flex-start;
-    padding-left: 8rem;
+    background-size: cover;
+    gap: 2rem;
 }
 .home-hero .hero-content{
     max-width: 500px;
@@ -24,10 +26,25 @@
     font-size: 40px;
     font-weight: 600;
 }
-.home-hero .mobile-img{
-    display: none;
+
+.home-hero .mobile-img img{
+    width: 500px;
 }
-@media screen and (max-width: 460px) {
+@media (max-width: 1024px) {
+    .home-hero .mobile-img img{
+        width: 400px;
+    }
+}
+@media (max-width: 768px) {
+    .home-hero {
+        flex-direction: column;
+        text-align: center;
+    }
+    .home-hero .mobile-img img{
+        width: 350px;
+    }
+}
+@media screen and (max-width: 480px) {
     .home-hero{
         padding-left: 10px;
         display: flex;
@@ -36,31 +53,31 @@
         flex-direction: column;
         gap: 2rem;
         height: auto;
-        background: url('../../assets/background.png');
         text-align: center;
         background-repeat: no-repeat;
     }
     .home-hero .hero-content{
-        padding-top: 2rem;
+        padding-top: 0.5rem;
         max-width: 300px;
     }
     .home-hero .hero-content .title{
-        font-size: 18px;
+        font-size: 38px;
         font-weight: 500;
     }
     .home-hero .hero-content .title span{
-        font-size: 50px;
+        font-size: 60px;
+        font-weight: 700;
     }
     .home-hero .hero-content .sub-title{
-        font-size: 18px;
+        font-size: 28px;
     }
     .home-hero .hero-content p{
-        font-size: 12px;
+        font-size: 18px;
     }
     .home-hero .mobile-img{
         display: block;
     }
     .home-hero .mobile-img img{
-        width: 350px;
+        width: 300px;
     }
 }

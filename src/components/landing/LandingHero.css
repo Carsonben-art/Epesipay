@@ -50,10 +50,13 @@
 
 @media (max-width: 480px) {
     .landing-hero img {
-        width: 200px;
+        width: 300px;
     }
     .landing-hero .landing-content h1 span {
         font-size: 60px;
+    }
+    .landing-hero .landing-content p{
+        font-size: 18px;
     }
     .landing-hero .landing-content button {
         width: 200px;

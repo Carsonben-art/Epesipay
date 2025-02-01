@@ -11,13 +11,7 @@ import {
 } from "@mui/material";
 
 const ATMWithdrawalTariff = () => {
-  const withdrawalData = [
-    { min: 200, max: 2500, ksh: 35 },
-    { min: 2501, max: 5000, ksh: 69 },
-    { min: 5001, max: 10000, ksh: 115 },
-    { min: 10001, max: 35000, ksh: 203 },
-  ];
-
+ 
   const otherTransactions = [
     { transaction: "All Deposits", ksh: "Free" },
     { transaction: "Epesipay Registration", ksh: "Free" },
@@ -28,50 +22,8 @@ const ATMWithdrawalTariff = () => {
 
   return (
     <div style={{ padding: "16px" }}>
-      {/* Title */}
-      <Typography
-        variant="h5"
-        align="center"
-        gutterBottom
-        sx={{ fontWeight: "bold", marginBottom: "24px" }}
-      >
-        ATM Withdrawal Tariff
-      </Typography>
-    <TableContainer
-        component={Paper}
-        sx={{
-            maxWidth: "900px",
-            overflowX: "auto",
-            marginBottom: "24px",
-            margin: "0 auto",
-            border: "1px solid #5A3316",
-        }}
-    >
-        <Table>
-            <TableHead>
-                <TableRow sx={{ backgroundColor: "#f5a623" }}>
-                    <TableCell align="center" sx={{ fontWeight: "bold", border: "1px solid #5A3316" }}>
-                        Min
-                    </TableCell>
-                    <TableCell align="center" sx={{ fontWeight: "bold", border: "1px solid #5A3316" }}>
-                        Max
-                    </TableCell>
-                    <TableCell align="center" sx={{ fontWeight: "bold", border: "1px solid #5A3316" }}>
-                        Ksh
-                    </TableCell>
-                </TableRow>
-            </TableHead>
-            <TableBody>
-                {withdrawalData.map((row, index) => (
-                    <TableRow key={index} sx={{ backgroundColor: index % 2 === 0 ? "#d7d7d7" : "inherit" }}>
-                        <TableCell align="center" sx={{ border: "1px solid #5A3316" }}>{row.min}</TableCell>
-                        <TableCell align="center" sx={{ border: "1px solid #5A3316" }}>{row.max}</TableCell>
-                        <TableCell align="center" sx={{ border: "1px solid #5A3316" }}>{row.ksh}</TableCell>
-                    </TableRow>
-                ))}
-            </TableBody>
-        </Table>
-    </TableContainer>
+    
+   
 
     <Typography
         variant="h6"

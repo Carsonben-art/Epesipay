@@ -1,16 +1,16 @@
 import React from 'react'
 import PricingHero from '../components/pricing/PricingHero'
+import PricingTable from '../components/pricing/PricingTable'
 import ATMWithdrawalTariff from '../components/pricing/ATMWithdrawalTariff'
-import EpesiPayTable from '../components/pricing/EpesiPayTable'
 
-const PricingPage = () => {
+const PersonalPricingPage = () => {
   return (
     <div>
       <PricingHero />
-      <EpesiPayTable />
+      <PricingTable />
       <ATMWithdrawalTariff />
     </div>
   )
 }
 
-export default PricingPage
+export default PersonalPricingPage

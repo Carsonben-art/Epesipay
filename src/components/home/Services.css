@@ -98,16 +98,16 @@
         font-size: 25px;
     }
     .services .services-content .services-details ul {
-        font-size: 16px;
+        font-size: 18px;
     }
     .services .services-content .services-details ul li {
         margin-bottom: 0.5rem;
     }
     .services .services-content .services-details p {
-        font-size: 16px;
+        font-size: 18px;
     }
     .services p {
-        font-size: 16px;
+        font-size: 18px;
     }
 }
 
@@ -119,7 +119,7 @@
         font-size: 25px;
     }
     .services .services-header p{
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 500;
     }
     .services .services-content .image-container img{
@@ -130,16 +130,16 @@
         font-size: 18px;
     }
     .services .services-content .services-details ul li .icon{
-        font-size: 10px;
+        font-size: 18px;
     }
     .services .services-content .services-details ul {
-        font-size: 14px;
+        font-size: 18px;
     }
     .services .services-content .services-details p {
-        font-size: 14px;
+        font-size: 18px;
     }
     .services p {
-        font-size: 14px;
+        font-size: 18px;
     }
     .services .image-container-below{
         display: block;
