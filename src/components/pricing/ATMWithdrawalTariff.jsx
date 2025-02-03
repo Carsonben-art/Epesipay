@@ -13,11 +13,8 @@ import {
 const ATMWithdrawalTariff = () => {
  
   const otherTransactions = [
-    { transaction: "All Deposits", ksh: "Free" },
-    { transaction: "Epesipay Registration", ksh: "Free" },
-    { transaction: "Buying Airtime Through Epesipay", ksh: "Free" },
-    { transaction: "Epesipay Balance Enquiry", ksh: "Free" },
-    { transaction: "Change Epesipay PIN", ksh: "Free" },
+    { transaction: "EpesiPay Registeration", ksh: "Free" },
+    { transaction: "Changing Pin", ksh: "Free" },
   ];
 
   return (
@@ -46,10 +43,10 @@ const ATMWithdrawalTariff = () => {
             <TableHead>
                 <TableRow sx={{ backgroundColor: "#f5a623" }}>
                     <TableCell align="center" sx={{ fontWeight: "bold", border: "1px solid #5A3316" }}>
-                        Other Transactions
+                        Transactions
                     </TableCell>
                     <TableCell align="center" sx={{ fontWeight: "bold", border: "1px solid #5A3316" }}>
-                        Kshs
+                        Fees
                     </TableCell>
                 </TableRow>
             </TableHead>
@@ -70,18 +67,15 @@ const ATMWithdrawalTariff = () => {
       {/* Notes Section */}
       <Typography
         variant="body2"
-        sx={{ marginTop: "24px",maxWidth:"1200px", whiteSpace: "pre-line" }}
+        sx={{ marginTop: "24px",maxWidth:"1000px", whiteSpace: "pre-line" }}
       >
         Note:
-        {"\n"}1. Maximum Account Balance is Kshs.500,000
-        {"\n"}2. Maximum daily transaction value is Kshs.500,000
-        {"\n"}3. Maximum amount per transaction is Kshs.250,000
-        {"\n"}4. You cannot withdraw less than Kshs.50 at an Epesipay agent outlet.
-        {"\n"}5. To initiate Epesipay Self Reversal, send the transaction confirmation to 456.
-        {"\n"}6. You cannot deposit money directly into another Epesipay customer's account at an agent outlet.
-        {"\n"}7. For registration at Agent outlets, only Kenyan Passports and National IDs are valid. Foreign Passports, Military IDs, and Foreigner Certificates can only be registered at Safaricom Shops and Care Desks.
-        {"\n"}8. For deposits and withdrawals, the valid documentation are Kenyan Passports, National IDs, Foreign Passports, Military IDs, and Foreigner Certificates.
-        {"\n"}9. For inquiries, complaints, feedback, or further support, reach out to our customer support line by dialing 100 for FreePay customers or 200 for PostPay customers and *234# for self-service. Send us an email at: support@epesipay.com
+        {"\n"}Phone numbers must be entered in International format for all transactions. That is,
+                    country code followed by the number without the leading 0. For example, if the number
+                    is 07123456789 and country is Kenya, then enter +2547123456789
+        {"\n"}2. Maximum amount per transaction is Kshs.300,000
+        {"\n"}3. Maximum Account Balance is Kshs.500,000
+        {"\n"}4. Maximum daily transaction value is Kshs.500,000
       </Typography>
     </div>
   );

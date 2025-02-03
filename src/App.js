@@ -11,6 +11,8 @@ import LandingPage from './pages/LandingPage';
 import PricingPage from './pages/PricingPage';
 import FaqPage from './pages/FaqPage';
 import PersonalPricingPage from './pages/PersonalPricingPage';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import TermsAndConditions from './pages/TermsAndConditions';
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
           <Route path="/personal-pricing" element={<PersonalPricingPage />} />
           <Route path="/pricing" element={<PricingPage />} />
           <Route path="/faqs" element={<FaqPage />} />
+          <Route path="/privacypolicy" element={<PrivacyPolicy />} />
+          <Route path="/terms" element={<TermsAndConditions />} />
 
         </Routes>
         <Footer />

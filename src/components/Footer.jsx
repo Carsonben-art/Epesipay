@@ -4,6 +4,7 @@ import futurizac from '../assets/futurizac Logo 1.png'
 import dtb from '../assets/DTB.png'
 import apple from '../assets/apple.png'
 import google from '../assets/googleplay.png'
+import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <footer className="footer">
@@ -44,7 +45,7 @@ const Footer = () => {
       </div>
       
       <div className="footer-bottom">
-        <p>&copy; Epesipay 2024. All Rights Reserved. <a href="#privacy">Privacy & Policy</a>. <a href="#terms">Terms & Conditions</a>.</p>
+        <p>&copy; Epesipay 2024. All Rights Reserved. <Link to="/privacypolicy">Privacy & Policy</Link>. <Link to="/terms">Terms & Conditions</Link>.</p>
       </div>
     </footer>
   );

@@ -60,11 +60,7 @@ const BusinessNote = () => {
             </TableBody>
         </Table>
     </TableContainer>
-     {/* More tables here... */}
-      
-
-
-      {/* Notes Section */}
+     
       <Typography
         variant="body2"
         sx={{ marginTop: "24px",maxWidth:"900px", whiteSpace: "pre-line" }}
@@ -73,10 +69,6 @@ const BusinessNote = () => {
         {"\n"}1. Phone numbers must be entered in International format for all transactions. That is,
                     country code followed by the number without the leading 0. For example, if the number
                     is 07123456789 and country is Kenya, then enter +2547123456789
-        {"\n"}2. Maximum amount per transaction is Kshs.300,000
-        {"\n"}3. Maximum Account Balance is Kshs.500,000
-        {"\n"}4. Maximum daily transaction value is Kshs.500,000
-       
       </Typography>
     </div>
   );
